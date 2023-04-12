@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.5db40ad6.js",
-    "static/js/787.d5146e3f.chunk.js": "/static/js/787.d5146e3f.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.5db40ad6.js.map": "/static/js/main.5db40ad6.js.map",
-    "787.d5146e3f.chunk.js.map": "/static/js/787.d5146e3f.chunk.js.map"
+    "main.css": "/myCabinet/static/css/main.073c9b0a.css",
+    "main.js": "/myCabinet/static/js/main.a8f3a9d2.js",
+    "static/js/787.d5146e3f.chunk.js": "/myCabinet/static/js/787.d5146e3f.chunk.js",
+    "static/media/logo.svg": "/myCabinet/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/myCabinet/index.html",
+    "main.073c9b0a.css.map": "/myCabinet/static/css/main.073c9b0a.css.map",
+    "main.a8f3a9d2.js.map": "/myCabinet/static/js/main.a8f3a9d2.js.map",
+    "787.d5146e3f.chunk.js.map": "/myCabinet/static/js/787.d5146e3f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.5db40ad6.js"
+    "static/js/main.a8f3a9d2.js"
   ]
 }
