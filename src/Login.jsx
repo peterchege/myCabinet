@@ -46,7 +46,7 @@ const Login = () => {
           </div>
           <div className=" relative left-1/2  w-0.5 bg-gray-600"></div>
           <div>
-            <p className="font-medium text-4xl text-right leading-loose mr-20">
+            <p className="font-bold text-4xl text-right leading-loose mr-20">
               Welcome to our virtual cabinet meeting. Connect and Collaborate
               from anywhere.
             </p>
