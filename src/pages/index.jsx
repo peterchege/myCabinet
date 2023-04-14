@@ -1,3 +1,4 @@
+export { default as Login } from './auth/Login.jsx';
 export { default as Ecommerce } from './Ecommerce';
 export { default as Kanban } from './Kanban';
 export { default as Orders } from './Orders';

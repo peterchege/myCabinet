@@ -65,7 +65,7 @@ const Dashboard = () => {
             >
               <Navbar />
             </div>
-          </div>
+        
           <div>
             <Routes>
               {/* Dashboard */}
@@ -95,6 +95,7 @@ const Dashboard = () => {
             </Routes>
           </div>
         </div>
+        </div> 
       </BrowserRouter>
     </div>
   );
