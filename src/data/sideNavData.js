@@ -20,19 +20,19 @@ export const links = [
     title: "Dashboard",
     links: [
       {
-        name: "QuickMenu",
+        name: "quick-menu",
         icon: <RiDashboardFill />,
       },
       {
-        name: "Meetings",
+        name: "meetings",
         icon: <RiFileListFill />,
       },
       {
-        name: "Resources",
+        name: "resources",
         icon: <FiShoppingBag />,
       },
       {
-        name: "Directory",
+        name: "directory",
         icon: <FiShoppingBag />,
       },
     ],
