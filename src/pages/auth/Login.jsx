@@ -37,7 +37,7 @@ const Login = () => {
                   type="password"
                 />
                 <button
-                  onClick={() => navigate("/dashboard/ecommerce")}
+                  onClick={() => navigate("/dashboard/quick-menu")}
                   class="bg-green hover:bg-secondary text-white font-bold py-3 px-4 rounded focus:outline-none focus:shadow-outline mt-10 w-82"
                   type="button"
                 >

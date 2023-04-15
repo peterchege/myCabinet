@@ -29,6 +29,7 @@ module.exports = {
         secondary: "#f2ecdecf",
         accent: "#DF391E",
         white: "#fff",
+        tertiary: "#CED6BB",
       },
       width: {
         400: "400px",

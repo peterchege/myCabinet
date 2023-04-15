@@ -45,13 +45,13 @@ export const links = [
         icon: <AiOutlineCalendar />,
       },
       {
-        name: "Tasks",
+        name: "tasks",
         icon: <BsKanban />,
       },
-      {
-        name: "editor",
-        icon: <FiEdit />,
-      },
+      // {
+      //   name: "editor",
+      //   icon: <FiEdit />,
+      // },
     ],
   },
 

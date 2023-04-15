@@ -7,13 +7,13 @@ import { Navbar, Footer, Sidebar, ThemeSettings } from "../../components";
 import {
   QuickMenu,
   Meetings,
-  Orders,
+  Directory,
   Calendar,
   Employees,
-  Stacked,
+  Resources,
   Pyramid,
   Customers,
-  Kanban,
+  Tasks,
   Line,
   Area,
   Bar,
@@ -22,6 +22,7 @@ import {
   ColorPicker,
   ColorMapping,
   Editor,
+  Stacked,
 } from "..";
 import "../../App.css";
 
@@ -72,14 +73,16 @@ const Dashboard = () => {
               <Route path="/" element={<QuickMenu />} />
               <Route path="/quick-menu" element={<QuickMenu />} />
               <Route path="/meetings" element={<Meetings />} />
+              <Route path="resources" element={<Resources />} />
+              <Route path="directory" element={<Directory />} />
 
               {/* Pages */}
-              <Route path="orders" element={<Orders />} />
+
               <Route path="employees" element={<Employees />} />
               <Route path="customer" element={<Customers />} />
 
               {/* Apps */}
-              <Route path="kanban" element={<Kanban />} />
+              <Route path="tasks" element={<Tasks />} />
               <Route path="editor" element={<Editor />} />
               <Route path="calendar" element={<Calendar />} />
               <Route path="color-picker" element={<ColorPicker />} />
