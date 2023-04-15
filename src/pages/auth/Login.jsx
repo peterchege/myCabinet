@@ -1,10 +1,17 @@
 import React from "react";
-import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  Link,
+  useNavigate,
+} from "react-router-dom";
 
 const Login = () => {
   const logoUrl = process.env.PUBLIC_URL + "/assets/images/kenya-logo.png";
   const govUrl = process.env.PUBLIC_URL + "/assets/images/goverment-logo.png";
   const lineUrl = process.env.PUBLIC_URL + "/assets/images/bottom-line.png";
+  let navigate = useNavigate();
 
   return (
     <div className="grid  text-white">
@@ -37,6 +44,7 @@ const Login = () => {
                   type="password"
                 />
                 <button
+                  onClick={() => navigate("/dashboard/ecommerce")}
                   class="bg-green hover:bg-secondary text-white font-bold py-3 px-4 rounded focus:outline-none focus:shadow-outline mt-10 w-82"
                   type="button"
                 >
