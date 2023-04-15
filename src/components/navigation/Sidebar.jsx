@@ -4,7 +4,8 @@ import { SiShopware } from "react-icons/si";
 import { MdOutlineCancel } from "react-icons/md";
 import { TooltipComponent } from "@syncfusion/ej2-react-popups";
 
-import { links } from "../data/sideNavData";
+import { links } from "../../data/sideNavData";
+import { images } from "../../constants";
 
 const Sidebar = () => {
   const activeMenu = true;
@@ -23,7 +24,11 @@ const Sidebar = () => {
               onClick={() => {}}
               className="items-center gap-3 ml-3 mt-4 flex text-xl font-extrabold tracking-tight text-white  "
             >
-              <SiShopware /> <span>Shoppy</span>
+              {/* <SiShopware /> <span>Shoppy</span> */}
+              <div className="">
+                <img src={images.logoUrl} width={100} alt="Logo" />
+                <h1 className="text-2xl	pt-5 font-semibold">eCabinet</h1>
+              </div>
             </Link>
             <TooltipComponent content="Menu" position="BottomCenter">
               <button
