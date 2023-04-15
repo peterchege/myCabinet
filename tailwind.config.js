@@ -27,6 +27,8 @@ module.exports = {
         green: "#00773D",
         primary: "#12202F",
         secondary: "#f2ecdecf",
+        accent: "#DF391E",
+        white: "#fff",
       },
       width: {
         400: "400px",

@@ -20,7 +20,7 @@ export const links = [
     title: "Dashboard",
     links: [
       {
-        name: "Quick Menu",
+        name: "QuickMenu",
         icon: <RiDashboardFill />,
       },
       {

@@ -1,6 +1,7 @@
 export { default as Login } from './auth/Login.jsx';
 export { default as Dashboard } from './dashboard/index.jsx';
 export { default as Ecommerce } from './dashboard/Ecommerce.jsx';
+export { default as QuickMenu } from './dashboard/QuickMenu.jsx';
 export { default as Kanban } from './dashboard/Kanban.jsx';
 export { default as Orders } from './dashboard/Orders.jsx';
 export { default as Employees } from './dashboard/Employees.jsx';

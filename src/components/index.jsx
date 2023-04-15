@@ -1,7 +1,7 @@
 export { default as Button } from './Button';
 export { default as ThemeSettings } from './ThemeSettings';
 export { default as Sidebar } from './navigation/Sidebar';
-export { default as Navbar } from './Navbar';
+export { default as Navbar } from './navigation/Navbar';
 export { default as Footer } from './Footer';
 export { default as Cart } from './Cart';
 export { default as Chat } from './Chat';
