@@ -19,12 +19,12 @@ const MeetingTickets = () => {
       invitees: 43,
     },
     {
-      date: "15",
+      date: "27",
       month: "NOV",
       title: "Implementing solar power distribution to Rural and Urban Farmers",
       duration: "11.00 am To 12:00 am EAT",
       location: "Westlands",
-      invitees: 43,
+      invitees: 129,
     },
   ];
   return (

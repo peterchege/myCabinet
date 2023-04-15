@@ -1,9 +1,11 @@
 import React from 'react'
+import {  NavbarTitle } from "../../components";
+
 
 const Resources = () => {
   return (
     <div>
-      <h1>Resources</h1>
+      <NavbarTitle headTitle={"Resources"} />
     </div>
   )
 }

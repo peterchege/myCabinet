@@ -2,7 +2,7 @@
 import React from "react";
 
 import { images } from "../../constants";
-import { MeetingTickets } from "../../components";
+import { MeetingTickets, NavbarTitle } from "../../components";
 
 const QuickMenu = () => {
   const posts = [
@@ -33,6 +33,7 @@ const QuickMenu = () => {
   ];
   return (
     <div>
+      <NavbarTitle headTitle={"Dashboard"} />
       <div className="w-4/5 mx-auto grid gap-4 lg:grid-cols-3 mt-10">
         {posts.map((items, key) => (
           <div
