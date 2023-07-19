@@ -2,7 +2,7 @@
   "name": "my-cabinet",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://peterchege.github.io/myCabinet",
+  "homepage": "https://peterchege.github.io",
   "dependencies": {
     "@syncfusion/ej2": "^19.4.48",
     "@syncfusion/ej2-react-calendars": "^19.4.48",
